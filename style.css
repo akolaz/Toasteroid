@@ -1,0 +1,138 @@
+
+
+
+@font-face {
+    font-family: "Nugia";
+    src: url("NugiaVintage.ttf");
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+h1{
+    font-family: "Nugia";
+    font-size: 80px;
+}
+
+h2{
+    font-family: "Nugia";
+    font-size: 80px;
+}
+
+body {
+    font-family: "Nugia"; 
+    margin: 0%;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.bloc-texte{
+    background-color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+
+
+.navigation{
+    background-color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.navigation:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: all 0.5s;
+    scale: 1.1;
+}
+
+.navigation:hover a{
+    color: aliceblue;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0px auto;
+    padding-inline-start: unset;
+}
+
+
+.background-fix{
+    width: 100%;
+    height: 100vh;
+    background-image: url("toast.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    background-position: center;
+}
+
+.card-blue {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-around;
+    font-size: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.card-blue img {
+    border-radius: 20px;
+}
+
+
+.card-red {
+    padding: 20px;
+    align-items: center;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-around;
+    font-size: 30px;
+    gap: 20px;
+    text-align: center;
+}
+
+.card-yellow {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;   
+    font-size: 25px;
+
+}
+
+.card-green {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card-green img{
+    border-radius: 20px;
+}
+
+
